@@ -1,0 +1,58 @@
+#page-splash .header
+{
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 120px;
+}
+
+#page-splash .language
+{
+  width: 260px;
+  height: 175px;
+  margin: 80px auto 0 auto;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  color: rgb(102,102,102);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#page-splash .language a
+{
+  display: block;
+  margin-top: 10px;
+  height: 35px;
+  line-height: 35px;
+  background-image: url('../images/splash/button.png');
+  -webkit-border-radius: 6px;
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#page-splash .language a.welsh
+{
+/*   margin-left: 106px; */
+}
+
+#page-splash .language a.english
+{
+/*   margin-left: 130px; */
+}
+
+#page-splash .circle
+{
+  /*
+background-image: url('../images/splash/circle.png');
+  background-size: 100%;
+  -webkit-background-size: 100%;
+  width: 150px;
+  height: 187px;
+  position: absolute;
+  top: 323px;
+  left: 0px;
+*/
+	display: none;
+}
