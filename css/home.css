@@ -373,7 +373,8 @@ div#page-code .menu
 div#page-code .menu a
 {
   display: block;
-  padding: 9px 10px 5px 10px;
+  position: relative;
+  padding: 9px 36px 5px 10px;
   border-top: 1px solid #CCC;
   /*background-image: url('../images/home/menu_background.png');*/
   font-size: 13px;
@@ -394,7 +395,9 @@ div#page-code .menu a.last
 
 div#page-code .menu .arrow
 {
-  float: right;
+  position: absolute;
+  right: 12px;
+  top: 7px;
   margin-right: 2px;
   background-image: url('../images/home/menu_arrow.png');
   background-position: right;
@@ -402,7 +405,6 @@ div#page-code .menu .arrow
   -webkit-background-size: 100%;
   height: 15px;
   width: 15px;
-  margin-top: 1px;
 }
 
 div#page-code .circle
@@ -485,7 +487,6 @@ div.page-code .thismeans
   font-weight: bold;
   color: rgb(77,77,77);
   font-family: 'FrutigerLTStd-Roman';
-  text-transform: uppercase;
 }
 
 div.page-code .body
