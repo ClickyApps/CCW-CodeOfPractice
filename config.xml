@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "com.carecouncilwales.app.socialcareworkerscode"
-	version     = "2.1.1">
+	version     = "2.5.0">
 	
 	<name>Social Care Workers Code</name>
 	
