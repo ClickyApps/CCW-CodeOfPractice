@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>CCW Code of Practice App</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<link rel="stylesheet" href="../style.css">
+		<script src="../js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<div class="container contact_us send_a_message">
+			<nav class="purple language_select">
+				<a href="../welsh/index.html">Cymraeg</a>
+				<a href="index.html" class="right">English</a>
+			</nav>
+			<header>
+				<h1>Send a Message</h1>
+				<div class="buttons">
+					<a href="" class="purple" id="message-send">Send</a>
+				</div>
+			</header>
+			<div class="content">
+				<div class="field">
+					<input type="text" class="message-firstname" id="message-firstname-english" value="First Name" onfocus="if (this.value == 'First Name') {this.value = '';}" onblur="if (this.value == '') {this.value = 'First Name';}" />
+				</div>
+				<div class="field">
+					<input type="text" class="message-lastname" id="message-lastname-english" value="Last Name" onfocus="if (this.value == 'Last Name') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Last Name';}" />
+				</div>
+				<div class="field">
+					<input type="text" class="message-email" id="message-email-english" value="E-mail Address" onfocus="if (this.value == 'E-mail Address') {this.value = '';}" onblur="if (this.value == '') {this.value = 'E-mail Address';}"/>
+				</div>
+				<div class="field">
+					<input type="text" class="message-telephone" id="message-telephone-english" value="Telephone Number" onfocus="if (this.value == 'Telephone Number') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Telephone Number';}"/>
+				</div>
+				<div class="field message">
+					<textarea class="message-message" id="message-message-english" onfocus="if (this.value == 'Message') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+				</div>
+				<a href="contact_us.html" class="return_to_menu">Return to Contact Us</a>
+			</div>
+		</div><!-- container -->
+		<script src="../js/jquery.js"></script>
+		<script src="../js/plugins.js"></script>
+		<script src="../js/main.js"></script>
+	</body>
+</html>
