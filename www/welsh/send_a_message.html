@@ -13,14 +13,15 @@
 	</head>
 	<body>
 		<div class="container contact_us send_a_message">
-			<nav class="purple language_select">
+			<div class="fixer"></div>
+			<nav class="language_select">
 				<a href="index.html">Cymraeg</a>
 				<a href="../english/index.html" class="right">English</a>
 			</nav>
-			<header>
+			<header class="red-bkg">
 				<h1>Anfonwch neges</h1>
 				<div class="buttons">
-					<a href="" class="purple" id="message-send">Gyrrwch</a>
+					<a href="" class="strong_purple" id="message-send">Gyrrwch</a>
 				</div>
 			</header>
 			<div class="content">
@@ -39,9 +40,10 @@
 				<div class="field message">
 					<textarea class="message-message" id="message-message-welsh" onfocus="if (this.value == 'Neges') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Neges';}">Neges</textarea>
 				</div>
-				<a href="contact_us.html" class="return_to_menu">Yn ôl i gysylltu â ni</a>
+				<a href="contact_us.html" class="return_to_menu red">Yn ôl i gysylltu â ni</a>
 			</div>
 		</div><!-- container -->
+		<script type="text/javascript" src="cordova.js"></script>
 		<script src="../js/jquery.js"></script>
 		<script src="../js/plugins.js"></script>
 		<script src="../js/main.js"></script>

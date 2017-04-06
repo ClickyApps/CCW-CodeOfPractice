@@ -13,14 +13,15 @@
 	</head>
 	<body>
 		<div class="container contact_us send_a_message">
-			<nav class="purple language_select">
+			<div class="fixer"></div>
+			<nav class="language_select">
 				<a href="../welsh/index.html">Cymraeg</a>
 				<a href="index.html" class="right">English</a>
 			</nav>
-			<header>
+			<header class="red-bkg">
 				<h1>Send a Message</h1>
 				<div class="buttons">
-					<a href="" class="purple" id="message-send">Send</a>
+					<a href="" class="strong_purple" id="message-send">Send</a>
 				</div>
 			</header>
 			<div class="content">
@@ -39,9 +40,10 @@
 				<div class="field message">
 					<textarea class="message-message" id="message-message-english" onfocus="if (this.value == 'Message') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
 				</div>
-				<a href="contact_us.html" class="return_to_menu">Return to Contact Us</a>
+				<a href="contact_us.html" class="return_to_menu red">Return to Contact Us</a>
 			</div>
 		</div><!-- container -->
+		<script type="text/javascript" src="cordova.js"></script>
 		<script src="../js/jquery.js"></script>
 		<script src="../js/plugins.js"></script>
 		<script src="../js/main.js"></script>
