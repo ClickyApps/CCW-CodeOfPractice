@@ -181,9 +181,9 @@ nav.language_select a:last-child { background-image: none; padding-left: 0; padd
 .contact_us header h1 { color: #ffffff; font-size: 30px; text-align: left; padding-top: 20px;}
 .contact_us header .buttons { margin: 0 30px; }
 .contact_us header .buttons a:first-child{ margin-right: 3%; }
-.contact_us header .buttons a { display: inline-block; width: 48%; line-height: 3.33; height: 50px; text-align: center; color: #fff; font-weight: normal; font-family: 'Gibson-SemiBold',Arial; margin-bottom: 10px; }
+.contact_us header .buttons a { display: inline-block; width: 47%; line-height: 3.33; height: 50px; text-align: center; color: #fff; font-weight: normal; font-family: 'Gibson-SemiBold',Arial; margin-bottom: 10px; }
 .contact_us header .buttons a.white {color: #393144;}
-.contact_us .content { padding-bottom: 0; max-width: 300px; padding-top:30px; margin-bottom: 30px;}
+.contact_us .content { padding-bottom: 0; padding-top:30px; margin-bottom: 30px;}
 .contact_us .content .row { width: 100%; border-bottom: 1px solid #ea5d51; padding: 10px 0px;}
 .contact_us .content .email p strong{vertical-align: top;}
 .contact_us .content .email a { max-width: 100%; width: 200px; display: inline-block; word-wrap: break-word; }
