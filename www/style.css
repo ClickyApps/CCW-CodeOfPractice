@@ -189,7 +189,7 @@ nav.language_select a:last-child { background-image: none; padding-left: 0; padd
 .contact_us .content .email a { max-width: 100%; width: 200px; display: inline-block; word-wrap: break-word; }
 .contact_us .content p { display: inline-block; vertical-align: top; margin-bottom: 0px;}
 .contact_us .content p strong { display: inline-block; width: 100px; color: #393144; }
-.contact_us .content address { display: inline-block; margin-bottom: 1em; max-width: 150px;}
+.contact_us .content address { display: inline-block; margin-bottom: 1em; max-width: 150px; font-style: normal;}
 .contact_us .formats p:last-child, .contact_us .copyright p:last-child { max-width: 150px; }
 .contact_us .social { margin-bottom: 20px; }
 .contact_us .social a { background-repeat: no-repeat; display: block; padding-left: 45px; margin-bottom: 10px; background-size: 30px; line-height: 1.4; }
