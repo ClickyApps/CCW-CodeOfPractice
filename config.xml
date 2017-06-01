@@ -2,9 +2,9 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id          = "com.carecouncilwales.app.socialcareworkerscode"
-	version     = "2.6.0">
+	version     = "2.6.1">
 	
-	<name>Social Care Workers Code</name>
+	<name>Code of Professional Practice for Social Care</name>
 	
 	<description>
 		The Care Council for Wales is the social care workforce regulator in Wales responsible for promoting and securing high standards across the social services and social care workforce.
